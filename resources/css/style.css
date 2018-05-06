@@ -1,6 +1,34 @@
+/* General Styling */
+h3 {
+  margin-top: 1rem;
+}
 .row {
   justify-content: center;
 }
-h3 {
-  margin-top: 1rem;
+.fas, .fab {
+  color: #343a40;
+}
+
+/* Name Section */
+
+
+/* Skills Section */
+
+
+/* Portfolio Section */
+.portfolio {
+  background-color: #e9ecef;
+}
+
+/* Contact Section */
+.contact, .col-sm-3 {
+  margin: .5rem;
+}
+
+/* Footer */
+
+@media (min-width:768px) {
+  .container {
+    max-width: 100%;
+  }
 }
