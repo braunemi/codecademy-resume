@@ -2,7 +2,7 @@
 h1,h2,h3,.h1 {
   font-family: 'Open Sans', sans-serif;
 }
-p {
+p, a {
   font-size: 1.15rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -30,8 +30,8 @@ h3 {
 }
 
 /* Contact Section */
-@media (max-width: 425px) {
-  .contact, .col-sm-3 {
+@media (max-width: 575px) {
+  #contact, .col-sm-3 {
     margin: .5rem;
   }
 }
